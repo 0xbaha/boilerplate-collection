@@ -37,6 +37,46 @@ This collection aims to include templates for various categories, such as:
 
 *(Feel free to browse the directories to see the currently available templates.)*
 
+## Folder Structure
+
+```
+boilerplate-collection/
+│
+├── .gitignore             # Base .gitignore for this repository
+├── LICENSE                # The license under which the collection is distributed
+├── README.md              # This README file providing guidance
+│
+├── config/                # Templates for configuration files
+│   ├── ci-cd/             # --> e.g., GitHub Actions workflows, GitLab CI templates
+│   ├── docker/            # --> e.g., Dockerfile examples, docker-compose setups
+│   ├── git/               # --> e.g., .gitignore templates for various languages/frameworks, .gitattributes
+│   └── linters-formatters/ # --> e.g., .eslintrc, .prettierrc, .flake8, editorconfig
+│
+├── docs/                  # Templates for project documentation
+│   ├── ISSUE_TEMPLATE/    # --> GitHub issue templates (bug report, feature request)
+│   ├── CONTRIBUTING.md    # --> Template for contribution guidelines
+│   ├── CODE_OF_CONDUCT.md # --> Template for a code of conduct
+│   └── PULL_REQUEST_TEMPLATE.md # --> Template for GitHub pull requests
+│
+├── project-structures/    # Boilerplate directory layouts for new projects
+│   ├── node-module/       # --> Standard layout for a Node.js package
+│   ├── python-package/    # --> Standard layout for a Python package
+│   └── web-app-basic/     # --> Basic structure for a generic web application
+│
+└── scripts/               # Templates related to scripting
+    ├── headers/           # --> Reusable script headers
+    ├── bash/              # --> Full bash script templates or common snippets
+    ├── python/            # --> Python script templates or common snippets
+    └── powershell/        # --> PowerShell script templates or common snippets
+```
+Explanation of Directories:
+
+- **Root Files**: Contains the essential README.md, LICENSE, and potentially a base .gitignore for the collection repository itself.
+- `/config`: Houses templates for various configuration needs, categorized by tool or purpose (CI/CD, Docker, Git, Linters/Formatters).
+- `/docs`: Contains standard documentation file templates commonly found in software repositories. Includes GitHub-specific templates like issue and PR templates.
+- `/project-structures`: Provides complete directory skeletons for different types of projects to quickly scaffold a new repository.
+- `/scripts`: Focuses on scripting templates, separating reusable headers from language-specific script bodies or snippets.
+
 ## How to Use
 
 There are several ways to use the templates in this collection:
