@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: [Year] [Copyright Holder Name] <[Optional Contact Email]>
+# SPDX-License-Identifier: [Choose SPDX Identifier, e.g., MIT, GPL-3.0-or-later]
 
 # =========================================================================================
 # SCRIPT METADATA
@@ -14,7 +16,6 @@
 # WEBSITE       : [Link to relevant website, project page, or documentation, optional]
 # PROFILE       : [Optional: Link to Author's LinkedIn/GitHub profile]
 # REPOSITORY    : [Link to the script's code repository (e.g., GitHub, GitLab), optional]
-# LICENSE       : [Specify the license, e.g., MIT, GPLv3, Apache 2.0. Consider adding full text at end or linking.]
 # CREATED ON    : [YYYY-MM-DD - The date the script was initially created.]
 # LAST UPDATED  : [YYYY-MM-DD - The date of the last significant modification.]
 # VERSION       : [Semantic Versioning recommended, e.g., 1.0.0]
@@ -938,29 +939,5 @@ main
 log_message "INFO" "Script completed successfully."
 exit 0 # Explicitly exit with success code
 
-# =========================================================================================
-# LICENSE TEXT (Example: MIT License)
-# =========================================================================================
-# MIT License
-#
-# Copyright (c) [Year] [Author/Team Name]
-#
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in all
-# copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
 # =========================================================================================
 # --- End of Script ---
