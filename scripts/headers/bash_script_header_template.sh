@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: [Year] [Copyright Holder Name] <[Optional Contact Email]>
+# SPDX-License-Identifier: [Choose SPDX Identifier, e.g., MIT, GPL-3.0-or-later]
 
 # =========================================================================================
 # SCRIPT METADATA
@@ -12,7 +14,6 @@
 # CONTACT       : [Your Contact Email / Preferred Contact Method]
 # WEBSITE       : [Link to relevant website or project page, optional]
 # REPOSITORY    : [Link to script's code repository (e.g., GitHub, GitLab), optional]
-# LICENSE       : [Specify the license, e.g., MIT, GPLv3, Apache 2.0]
 # CREATED ON    : [YYYY-MM-DD]
 # LAST UPDATED  : [YYYY-MM-DD]
 # VERSION       : [e.g., 1.0.0]
@@ -289,14 +290,6 @@
 # - Author/Maintainer: [Your Name / Team Name]
 # - Contact: [Your Email / Team Distribution List]
 # - Bug Reports/Issues: [Link to GitHub Issues, Jira Project, or contact email]
-# =========================================================================================
-
-# =========================================================================================
-# LICENSE
-# =========================================================================================
-# Distributed under the [Specify License Name, e.g., MIT] License.
-# See accompanying LICENSE file or visit [Link to license text online, e.g., https://opensource.org/licenses/MIT]
-# Copyright (c) [Year] [Copyright Holder Name]
 # =========================================================================================
 
 
