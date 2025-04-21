@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 # SPDX-FileCopyrightText: [Year] [Copyright Holder Name] <[Optional Contact Email]>
 # SPDX-License-Identifier: [Choose SPDX Identifier, e.g., MIT, Apache-2.0, GPL-3.0-or-later]
 
