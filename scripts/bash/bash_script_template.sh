@@ -203,7 +203,7 @@
 #
 # **Log Format:**
 # - [Describe the format used for log messages.]
-# - Example File/Stdout Format: `[YYYY-MM-DD HH:MM:SS UTC] [LEVEL] [Function:Line] - Message`
+# - Example File/Stdout/Stderr Format: `[YYYY-MM-DD HH:MM:SS ZZZ] [LEVEL] [SCRIPT_NAME] - Message` (e.g., `[2025-04-22 22:00:00 WIB] [INFO] [your_script_name.sh] - Script started.`)
 # - Example Syslog Format: Uses standard syslog format, message prepended with `[LEVEL]: Message`.
 #
 # **Log Levels (if implemented):**
@@ -512,7 +512,7 @@ log_message() {
     timestamp=$(date +"%Y-%m-%d %H:%M:%S %Z") # Include Timezone
     local level_upper
     level_upper=$(echo "$level" | tr '[:lower:]' '[:upper:]')
-    local log_prefix="[${timestamp}] [${level_upper}]"
+    local log_prefix="[${timestamp}] [${level_upper}] [${SCRIPT_NAME}]"
     local log_line="${log_prefix} - ${message}"
     local color=""
 
